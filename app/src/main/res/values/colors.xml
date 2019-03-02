@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26a701</color>27800d
+    <color name="colorPrimaryDark">#27800d</color>
+    <color name="colorPrimaryLight">#1E88E5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="azur">#d3d3d3</color>
+
+
+    <color name="teal_700">#00796B</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="deep_orange_500">#FF5722</color>
+
+
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="materialyello">#ffb300</color>
+    <color name="materialgreen">#00bfa5</color>
+    <color name="pinkAccent">#ff4081</color>
+
+    <color name="green">#27800d</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="grey">#d6d3d3</color>
+    <color name="red">#fc0303</color>
+
+    <color name="grey_10">#e6e6e6</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_90">#263238</color>
+
+    <color name="green_500">#4CAF50</color>
+
+    <color name="blue_grey_300">#90A4AE</color>
+
+    <color name="blue_600">#1E88E5</color>
+
+
+    <color name="bg_slider_screen1">#81f47f</color>
+    <color name="bg_slider_screen2">#fc1d2c</color>
+    <color name="bg_slider_screen3">#269fef</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ffa000</color>
+
+    <color name="dot_inactive_screen2">#008c57</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#f9c772</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="blue_grey_400">#78909C</color>
+</resources>

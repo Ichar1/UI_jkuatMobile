@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Courses_Short">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingTop="@dimen/_20sdp"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:text="SHORT COURSES"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_17sdp"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="INFORMATION SYSTEM AUDIT AND CONTROL ASSOCIATION(ISACA)"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="1. The CISA designation is a globally recognized certification for IS audit control, assurance and security professionals. Being CISA-Certified showcases your audit experience, skills and knowledge, and demonstrates you are capable to assess vulnerabilities, report on compliance and institute controls within the enterprise."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Download CISA bronchure here"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="INTERNATIONAL BUSINESS MACHINE (IBM)"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="The IBM Africa Skills Academy Program is IBM's premier training and certification initiative for academia in the Middle East and Africa(MEA) region. The program provides unique academic roadmaps for faculty members and students, prepairing them to succeed in demanding positions unique to the market. The program provides a world class training experience, leveraging IBM official courses, IBM hands-on laboratories. Join us for the following courses;"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="MOBILE APPLICATION DEVELOPER)"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Did you know that a mobile app could solve a city's traffic, water and health problems? Not just that, an app can educate children with disabilities, change a diabetic's life and even help eradicate cancer."
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Download Mobile App Developer bronchure"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="CYBER SECURITY ANALYST (WEB SECURITY)"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="- Currently, the cost of cybercrime for the global economy has been estimated at $445 billion anually. The need to protect a company's online data infrastructure is now more important as information technology continues to advance."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Cisco Certified Network Associate (CCNA)"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="- The CCNA Routing and Switching curriculum is a gateway to entry-level networking jobs and IT careers."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Read more on CCNA"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="IOT DATA ANALYTICS"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="- Making good decisions depends on good data. As the amount of data grows, decision makers increasingly rely on data analytics to extract the required information at the right time and in the right place to make the best decision."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Download IOT Data Analytics bronchure here"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="FIBRE SHORT COURSES"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_14sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="- Fibre Optic Training"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="We live in a connected environment and today  worldwide communication backbones are based mostly on fiber optics.  Fiber cabling is now the preferred choice for a large majority of business and home networks. As a result of this exponential growth in popularity over the last couple of years it is now more important than ever to learn on what Fiber Optic Short Course is designed as a preparation for those taking the CFOT Certification directly or planning to attend an FOA-approved course and want to prepare ahead of time. This course combines theory and hands-on activities. The course also introduces the participant to industry standards governing outside plant and premises Fiber Networks. A JKUAT certificate of participation will be issued upon successful completion of the short course."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="TARGET AUDIENCE:"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="STEM Students, IT Managers, IT Technicians, Network Engineers, Project Managers, Telecommunication Engineers , Voice, Data"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="LINUX"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Knowledge of Linux is an important differentiator for business and IT professionals interested in big data, cloud computing, cybersecurity, Internet of Things, information systems, networking, programming, software development and more."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Download Linux Essentials bronchure here..."
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="OTHER SHORT COURSES:"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="Teaching with Technology (ICT Skills for Primary School Teachers)"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="(One week boot camp)"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="DOWNLOAD APPLICATION FORM HERE"
+                android:textColor="@color/green"
+                android:textSize="@dimen/_13sdp"
+                android:textAlignment="textStart"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

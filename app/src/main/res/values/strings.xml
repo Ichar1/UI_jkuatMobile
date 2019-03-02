@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">JKUAT_APP</string>
+
+
+    <string name="logo">Jomo Kenyatta University of Agriculture and Technology </string>
+    <string name="message">Welcome to JKUAT school Home to everyone </string>
+    <string name="Main">MAIN CAMPUS </string>
+    <string name="Cbd">NAIROBI CBD </string>
+    <string name="Karen">KAREN CAMPUS </string>
+    <string name="Mombasa">Mombasa CAMPUS </string>
+    <string name="title_activity_navigation">JKUAT PORTAL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Jkuat App</string>
+    <string name="slide_1_desc">Set your daily plan with your jkuat app</string>
+    <string name="slide_2_title">jkuat events </string>
+    <string name="slide_2_desc">Learn about the events happenning in jkuaty= </string>
+    <string name="slide_3_title">Jkuat timetable</string>
+    <string name="slide_3_desc">Access your timetable easily!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="Indoor_Games">Indoor Games</string>
+
+    <string name="DirectorEmail"> infonbicbd@jkuat.ac.ke</string>
+    <string name="DirectorOffice"> 0705950712</string>
+    <string name="PASEmail"> pas.ncbd@jkuat.ac.ke</string>
+    <string name="CESEmail"> cesncbd@jkuat.ac.ke</string>
+    <string name="EPDEmail"> epdncbd@jkuat.ac.ke</string>
+    <string name="ICTEmail"> ict.consultancy@jkuat.ac.ke</string>
+    <string name="JKUATradio"> JKUAT Radio</string>
+    <string name="TimetableCoordinator"> Timetable Coordinator</string>
+
+    <string name="tuck_shop">Tuck Shop</string>
+    <string name="comp_lab">Computer Lab 1</string>
+    <string name="comp_lab2">Computer Lab 2</string>
+    <string name="comp_lab3">Computer Lab 3</string>
+    <string name="comp_lab4">Computer Lab 4</string>
+    <string name="short_lorem_ipsum">Welcome to Jkuat Deans Office</string>
+
+    <string name="aboutus">We are Jkuat Students who Developed the Jkuat application to able to facilities undertaken in the school everyday To make lives better in the campus</string>
+
+</resources>

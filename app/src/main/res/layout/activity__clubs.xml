@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Dashboard.Activity_Clubs">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp"
+        android:gravity="center"
+        android:id="@+id/ll">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clipToPadding="false"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ictdepartment_card"
+                android:layout_width="335dp"
+                android:layout_height="350dp"
+                android:layout_margin="1dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:gravity="center">
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/ict_department_img"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_alignParentRight="true"
+                        android:contentDescription=""
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="1dp"
+                        app:srcCompat="@drawable/dsc_img"
+                        android:background="?attr/selectableItemBackground"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey"
+                        android:layout_margin="10dp">
+                    </View>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:text="DSC is a Google Developers program for university students, designed to help them build their mobile and web development skills and knowledge.
+It is open to any student, ranging from novice developers who are just starting, to advanced developers who want to further their skills.
+It is intended to be a space for students to learn and collaborate as they solve mobile and web development problems.
+For more details contact Alexander Kamau(0701626044) / Rachael Chege(0700427515) / Diram Bora(0723212256)."
+                        android:padding="3dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
