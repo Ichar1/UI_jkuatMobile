@@ -1,6 +1,7 @@
 package com.example.charlo.jkuat_mobile_app.Authentication;
 
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,9 @@ public class Signup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
 
         txtSignin = findViewById(R.id.sign_in);

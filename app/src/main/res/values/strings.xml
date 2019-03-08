@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">JKUAT_APP</string>
+    <string name="app_name">For More Information about our facilities click! on the icons on the different facilities to explore on the activities</string>
 
 
     <string name="logo">Jomo Kenyatta University of Agriculture and Technology </string>
@@ -47,5 +47,7 @@
     <string name="short_lorem_ipsum">Welcome to Jkuat Deans Office</string>
 
     <string name="aboutus">We are Jkuat Students who Developed the Jkuat application to able to facilities undertaken in the school everyday To make lives better in the campus</string>
+
+    <string name="comps_lab">Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device. Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.</string>
 
 </resources>

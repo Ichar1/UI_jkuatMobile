@@ -26,8 +26,6 @@ import com.example.charlo.jkuat_mobile_app.R;
 
 public class Navigation extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
-    ImageView imgEvents, imgCourses, imgTimetable, imgSocial, imgFacilities,imgClubs;
-    CardView cardEvents, cardCourses, cardTimetable, cardSocial, cardFacilities, cardClubs ;
     private ViewFlipper viewFlipper;
     //ImageView
 
@@ -53,9 +51,9 @@ public class Navigation extends AppCompatActivity
 
         viewFlipper = findViewById(R.id.v_flipper);
 
-        int images[] ={R.drawable.image_7,
-                R.drawable.image_8,
-                R.drawable.jkuatbldng1,};
+        int images[] ={R.drawable.jkuatbldng1,
+                R.drawable.slide_page,
+                R.drawable.slide1,};
 
 
 
@@ -169,6 +167,7 @@ public class Navigation extends AppCompatActivity
                 break;
             case R.id.facilities_card:
                 startActivity(new Intent(getApplicationContext(),Activity_Facilities.class));
+                break;
             case R.id.clubs_card:
                 startActivity(new Intent(getApplicationContext(),Activity_Clubs.class));
                 break;

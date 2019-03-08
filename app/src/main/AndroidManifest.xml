@@ -40,7 +40,12 @@
         <activity android:name=".Activity.Courses.Courses_short" />
         <activity android:name=".Activity.Dashboard.Activity_Courses" />
         <activity android:name=".Activity.Courses.Courses_Masters" />
-        <activity android:name=".Activity.Dashboard.Admin"></activity>
+        <activity android:name=".Activity.Dashboard.Admin" />
+        <activity android:name=".Activity.Facilities.ERourceActivity" />
+        <activity android:name=".Activity.Facilities.EResourceActivity" />
+        <activity android:name=".Activity.Timetable.TimetableICTActivity" />
+        <activity android:name=".Activity.Timetable.TimetableCESActivity" />
+        <activity android:name=".Activity.Timetable.TimetableEPDActivity"></activity>
     </application>
 
 </manifest>
