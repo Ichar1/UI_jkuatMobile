@@ -1,8 +1,9 @@
-package com.example.charlo.jkuat_mobile_app.Activity.Dashboard;
+ package com.example.charlo.jkuat_mobile_app.Activity.Dashboard;
 
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.MotionEvent;
@@ -134,18 +135,30 @@ public class Navigation extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_admin) {
+        if (id == R.id.nav_portal) {
+            String url = "http://portal.jkuat.ac.ke/";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            startActivity(i);
 
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_campuses) {
+        } else if (id == R.id.nav_help) {
+            String url = "https://portal.helb.co.ke/auth/signin";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            startActivity(i);
 
         } else if (id == R.id.AboutUs) {
             startActivity(new Intent(getApplicationContext(),Admin.class));
 
         } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBody = "Here is the share content body";
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+
 
         }
 

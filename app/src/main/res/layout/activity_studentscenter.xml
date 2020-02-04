@@ -142,7 +142,7 @@
                         android:gravity="center_vertical"
                         android:text="Description"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                        android:textColor="@color/grey_90" />
+                        android:textColor="@color/green_500" />
 
                     <View
                         android:layout_width="match_parent"

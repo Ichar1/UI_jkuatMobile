@@ -17,9 +17,10 @@ public class EResourceActivity extends AppCompatActivity {
         setTitle("EResource");
 
         viewFlipper = findViewById(R.id.VFlipper);
-        int images[] = {R.drawable.tvroom,
-                R.drawable.tvroom2,
-                R.drawable.el1,};
+        int images[] = {
+                R.drawable.library,
+                R.drawable.lib,
+                R.drawable.lib2,};
 
 
         for (int image : images) {

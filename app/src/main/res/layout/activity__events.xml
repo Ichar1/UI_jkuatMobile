@@ -44,15 +44,15 @@
             <ImageView
                 android:id="@+id/image1"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/image_7" />
+                android:layout_height="@dimen/_400sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/event"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/spacing_large"
-                android:text="Name of event"
+                android:text="OUT REACH DAY"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <TextView
@@ -61,7 +61,7 @@
                 android:layout_marginBottom="@dimen/spacing_large"
                 android:layout_marginLeft="@dimen/spacing_large"
                 android:layout_marginRight="@dimen/spacing_large"
-                android:text="admin"
+                android:text="This is jkuat programme to enable our students to help the society.All students are invited."
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 android:textColor="@color/grey_60" />
 
@@ -71,23 +71,129 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/btnshare"
                     style="@style/Button.Accent.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="SHARE" />
 
-                <Button
-                    style="@style/Button.Accent.Borderless"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="EXPLORE" />
-
             </LinearLayout>
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:layout_marginLeft="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_middle"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:visibility="visible"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_400sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/event3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:text="MOVIE DAY"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_large"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:text="This is an entertainment day where all the students are being offered a chance to visit Imax ang get a chance to watch a movie"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_60" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/Button.Accent.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="SHARE" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_medium"
+            android:layout_marginLeft="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_middle"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:visibility="visible"
+            app:cardCornerRadius="2dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_400sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/event1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:text="Orientation"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_large"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:text="Welcome to the jkuat Orientation which is will be taking place this week. All the students are required to atttend to support their fellow students"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_60" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/Button.Accent.Borderless"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="SHARE" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
 
     </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

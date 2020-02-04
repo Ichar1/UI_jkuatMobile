@@ -20,7 +20,8 @@ public class StudentscenterActivity extends AppCompatActivity {
         int images[] = {R.drawable.tvroom,
                 R.drawable.tvroom2,
                 R.drawable.pool1,
-                R.drawable.pooltable2};
+                R.drawable.pooltable2,
+                R.drawable.tennistabletwo};
 
 
         for (int image : images) {

@@ -40,14 +40,33 @@
     <string name="TimetableCoordinator"> Timetable Coordinator</string>
 
     <string name="tuck_shop">Tuck Shop</string>
-    <string name="comp_lab">Computer Lab 1</string>
-    <string name="comp_lab2">Computer Lab 2</string>
-    <string name="comp_lab3">Computer Lab 3</string>
-    <string name="comp_lab4">Computer Lab 4</string>
-    <string name="short_lorem_ipsum">Welcome to Jkuat Deans Office</string>
+    <string name="comp_names">The Computer Lab Names</string>
+    <string name="comp_lab">1.Computer Lab 1</string>
+    <string name="comp_lab2">2.Computer Lab 2</string>
+    <string name="comp_lab3">3. Computer Lab 3</string>
+    <string name="comp_lab4">4. Computer Lab 3</string>
+
+    <string name="dispensary">Our mission is to ensure excellent pharmaceutical care for all our patients. We achieve this by providing cost-effective, high quality medication and information regarding the safe and efficacious use ofmedicines</string>
+
+    <string name="about">The Nairobi CBD Campus is housed in the state of-the-art architectural masterpiece, JKUAT TOWERS owned by the University in the heart of the City of Nairobi along the busy and strategic Kenyatta Avenue. The Campus currently occupies 11th to 14th floors with executive lecture hall, ICT laboratories, library and Administration offices across the floors.
+
+Nairobi CBD Campus is a model higher education center established in response to growing Higher education needs in Kenya. In particular, the Campus is bridging the ever rising demands of University education for people who are busy with work both in Public and Private sector enterprises, the executives and dignitaries in various sectors and the young KCSE graduates in order to moderate the increasing problems of accessibility as a result of problems in work-life balance. As such, the campus offers flexible schedules depending on the needs of the students with diverse interests. We have a day classes, evening classes and week end classes on Saturday and Sundays.</string>
+    <string name="erource">The library in conjunction with the Main Campus Library provides users with access to a collection of electronic databases and E-books. For more information on Journals available and how to access contact the Librarian.Users interested in accessing electronic resources off- Campus can visit the library or send an email to: library.ncbd@jkuat.ac.ke</string>
 
     <string name="aboutus">We are Jkuat Students who Developed the Jkuat application to able to facilities undertaken in the school everyday To make lives better in the campus</string>
 
-    <string name="comps_lab">Reading is easier, too, in the new Reading view. You can collapse parts of the document and focus on the text you want. If you need to stop reading before you reach the end, Word remembers where you left off - even on another device. Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.</string>
+    <string name="comps_lab">Welcome to Jkuat computer labs.In the NAIROBI CBD campus we have 4 computer labs which are fully equipped and integrated with the latest software to ensure that the students are fully equipped for efficient learning.</string>
+
+    <string name="libray_1">Welcome to JKUAT Nairobi CBD campus Library. We are fully functional with very supportive staff. The library has a collection of information resources in prints and electronic formats, to all users to support the academic and research needs of the Campus students and staff. Users have access to over 3000 volumes. In addition, users can access multi-disciplinary electronic resources databases covering a wide range of academic programmes offered by the University.Welcome to JKUAT Nairobi CBD campus Library. We are fully functional with very supportive staff. The library has a collection of information resources in prints and electronic formats, to all users to support the academic and research needs of the Campus students and staff. Users have access to over 3000 volumes. In addition, users can access multi-disciplinary electronic resources databases covering a wide range of academic programmes offered by the University.</string>
+
+    <string name="libray_2">Library Objectives</string>
+    <string name="obj_1">1. To acquire and provide access to information resources in all formats for teaching,
+learning, research and innovation</string>
+    <string name="obj_2">2. To preserve and conserve information resources for posterity</string>
+    <string name="obj_3">3. To enhance user education to maximize use of information resources</string>
+    <string name="obj_4">4. To spearhead proactive transparent and accountable management of human and
+information resources and services.</string>
+    <string name="hours">Hours of operation</string>
+    <string name="close_lib">Closed on Sundays and Public Holidays</string>
 
 </resources>

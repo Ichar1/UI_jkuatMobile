@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
     android:orientation="vertical">
 
-
     <android.support.v4.widget.NestedScrollView
-        android:id="@+id/nested_content"
+        android:id="@+id/nested_scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
@@ -16,162 +16,96 @@
         android:scrollingCache="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <LinearLayout
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_xlarge"
-                android:text="DEVELOPMENT TEAM"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/spacing_medium"
-                android:text="ABOUT US"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="@color/grey_60" />
-
-            <LinearLayout
+            <ImageView
+                android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:layout_height="0dp"
+                android:contentDescription="@null"
+                app:layout_constraintDimensionRatio="16:9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/jkuatbldng1" />
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="64dp"
+                android:contentDescription="@null"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                app:layout_constraintDimensionRatio="w,"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.45"
+                app:srcCompat="@drawable/jkuat_logo"
+                android:layout_marginBottom="@dimen/_18sdp"/>
 
-                    <com.mikhaellopez.circularimageview.CircularImageView
-                        android:id="@+id/image"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"
-                        android:layout_marginRight="@dimen/_3sdp"
-                        android:layout_marginLeft="@dimen/_11sdp"
-                        android:layout_marginTop="@dimen/spacing_mlarge"
-                        android:src="@drawable/photo_male_2"
-                        app:civ_border="true"
-                        app:civ_shadow="true"
-                        app:civ_shadow_radius="0"
-                        app:civ_border_color="@color/colorPrimary"
-                        app:civ_border_width="2dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="STEPHEN KYALO"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal">
-
-                    <com.mikhaellopez.circularimageview.CircularImageView
-                        android:id="@+id/image1"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"
-                        android:layout_marginLeft="@dimen/_8sdp"
-                        android:layout_marginRight="@dimen/_3sdp"
-                        android:layout_marginTop="@dimen/spacing_mlarge"
-                        android:src="@drawable/photo_female_7"
-                        app:civ_border="true"
-                        app:civ_shadow="true"
-                        app:civ_shadow_radius="0"
-                        app:civ_border_color="@color/colorPrimary"
-                        app:civ_border_width="2dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="RACHEAL CHEGE"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal">
-
-                    <com.mikhaellopez.circularimageview.CircularImageView
-                        android:id="@+id/image2"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"
-                        android:layout_marginLeft="@dimen/_15sdp"
-                        android:layout_marginRight="@dimen/_18sdp"
-                        android:layout_marginTop="@dimen/spacing_mlarge"
-                        android:src="@drawable/photo_female_3"
-                        app:civ_border="true"
-                        app:civ_shadow="true"
-                        app:civ_shadow_radius="0"
-                        app:civ_border_color="@color/colorPrimary"
-                        app:civ_border_width="2dp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="DIRAM GUYO"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-
-
-
-
-            </LinearLayout>
-
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/spacing_xlarge"
-                android:layout_marginRight="@dimen/spacing_xlarge"
-                android:layout_marginTop="@dimen/spacing_large"
-                android:gravity="center"
-                android:lineSpacingExtra="2dp"
-                android:text="JKUAT"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                android:textColor="@color/grey_90" />
 
             <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/grey_10" />
+                android:layout_width="0dp"
+                android:layout_height="@dimen/spacing_large" />
 
-            <TextView
-                android:layout_width="wrap_content"
+
+            <android.support.v7.widget.CardView
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/spacing_xlarge"
-                android:layout_marginRight="@dimen/spacing_xlarge"
-                android:layout_marginTop="@dimen/spacing_large"
-                android:gravity="center"
-                android:lineSpacingExtra="2dp"
-                android:text="@string/aboutus"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
-                android:textColor="@color/grey_90" />
+                android:layout_marginLeft="@dimen/spacing_middle"
+                android:layout_marginRight="@dimen/spacing_middle"
+                app:cardBackgroundColor="@color/grey_90"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                android:layout_marginTop="@dimen/_18sdp">
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/grey_10" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_large"
+                    android:orientation="vertical">
 
-        </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="ABOUT US"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        android:textColor="@color/green_500"/>
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="@dimen/spacing_middle"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:background="@color/grey_10" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="@dimen/spacing_small"
+                        android:text="@string/about"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="@dimen/_10sdp"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.constraint.ConstraintLayout>
 
 
 
     </android.support.v4.widget.NestedScrollView>
-</LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
